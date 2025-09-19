@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabajos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h2 class="logo">Mi Portafolio</h2>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="habilidades.html">Habilidades</a>
+      <a href="educacion.html">Educación</a>
+      <a href="trabajos.html">Trabajos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="work">
+    <h2>Mis Trabajos</h2>
+    <div id="trabajosList" class="trabajos-grid"></div>
+
+    <div id="uploadForm" style="display:none;">
+      <h3>Subir nuevo trabajo</h3>
+      <input type="text" id="tituloTrabajo" placeholder="Título del trabajo">
+      <input type="file" id="archivoTrabajo">
+      <button onclick="subirTrabajo()">Subir</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Mi Portafolio</p>
+  </footer>
+
+  <script src="js/upload.js"></script>
+</body>
+</html>

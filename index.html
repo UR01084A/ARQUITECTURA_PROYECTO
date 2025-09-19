@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio con Admin</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h2 class="logo">Mi Portafolio</h2>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="habilidades.html">Habilidades</a>
+      <a href="educacion.html">Educación</a>
+      <a href="trabajos.html">Trabajos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <div class="presentacion">
+      <h1>Hola, soy <span>Tu Nombre</span></h1>
+      <p>Desarrollador Web / Diseñador</p>
+    </div>
+    <div class="login-box" id="loginBox">
+      <h2>Acceso Admin</h2>
+      <input type="text" id="usuario" placeholder="Usuario">
+      <input type="password" id="password" placeholder="Contraseña">
+      <button onclick="login()">Ingresar</button>
+      <p id="loginMsg"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Mi Portafolio | Diseñado en HTML, CSS y JS</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
